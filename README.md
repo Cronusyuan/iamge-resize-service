@@ -2,8 +2,9 @@
 
 ## Deploying
 
-run `nvm use`
-run `npm run deploy` (specify `--stage {stage}`/ `--region {region}` if you want to customize them)
+- run `nvm use`
+
+- run `npm run deploy` (specify `--stage {stage}`/ `--region {region}` if you want to customize them)
 
 It will:
 
