@@ -3,7 +3,7 @@
 ## Deploying
 
 run `nvm use`
-run `yarn deploy` (specify `--stage {stage}`/ `--region {region}` if you want to customize them)
+run `npm run deploy` (specify `--stage {stage}`/ `--region {region}` if you want to customize them)
 
 It will:
 
