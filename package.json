@@ -1,0 +1,16 @@
+{
+  "name": "image-resizing-service",
+  "version": "1.0.0",
+  "description": "resize any image uploaded and access via Cloudfront CDN",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --arch=x64 --platform=linux --libc=glibc sharp && npx serverless deploy"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1171.0",
+    "serverless": "^3.20.0"
+  },
+  "dependencies": {
+    "sharp": "^0.30.7"
+  }
+}
