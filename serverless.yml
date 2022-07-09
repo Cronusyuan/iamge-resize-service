@@ -1,5 +1,4 @@
-service:
-    name: image-resizing-service
+service: image-resizing-service
   
 provider:
   name: aws
@@ -18,8 +17,8 @@ provider:
 
 custom:
   userParams:
-    PRIVATE_BUCKET: raw-image-upload-bucket
-    CDN_BUCKET: resized-image-cdn-bucket
+    PRIVATE_BUCKET: image-raw-private-bucket
+    CDN_BUCKET: image-resized-cdn-bucket
 
 functions:
   resize-image:
